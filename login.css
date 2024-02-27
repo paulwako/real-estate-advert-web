@@ -1,0 +1,48 @@
+main{
+    text-align: center;
+    background-image: url(greenbackground.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.main-section{
+    width: 75vw;
+    margin: auto;
+    display: flex;    
+}
+.container{
+    width: 50%;
+    height: 350px;
+    position: relative;
+    z-index: 0;
+
+}
+.container section{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    z-index: 1;
+    margin-top: 10%;
+    left: 49%;
+    box-sizing: border-box;
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 1%;
+    margin:3% ;
+}
+button{
+    color: white;
+    font-weight: bold;
+    background-color: navy;
+    border-radius: 5px;
+    padding:5px;
+    width: 90%;
+    margin: 4%;
+    border: none;
+}
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: aliceblue;
+}
